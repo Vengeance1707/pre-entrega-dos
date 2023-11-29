@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pre-entrega-dos/static/css/main.644bfa3c.css",
+    "main.js": "/pre-entrega-dos/static/js/main.8f3c3ed7.js",
+    "index.html": "/pre-entrega-dos/index.html",
+    "main.644bfa3c.css.map": "/pre-entrega-dos/static/css/main.644bfa3c.css.map",
+    "main.8f3c3ed7.js.map": "/pre-entrega-dos/static/js/main.8f3c3ed7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.644bfa3c.css",
+    "static/js/main.8f3c3ed7.js"
+  ]
+}
