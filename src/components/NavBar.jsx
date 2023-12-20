@@ -1,48 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <Link className="navbar-brand" to="/">
-        Rage Components
-      </Link>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link className="nav-link" to="/">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/category/cpu">
-              CPUs
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/category/gpu">
-              GPUs
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/category/motherboard">
-              Motherboards
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/category/ram">
-              RAMs
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/category/cooler">
-              Coolers RGB
-            </Link>
-          </li>
-        </ul>
-      </div>
+    <nav className="navbar">
+      <ul className="nav-list">
+        <li className="nav-item">
+          <Link to="/" className="nav-link">Inicio</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/productos" className="nav-link">Productos</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/carrito" className="nav-link">Carrito</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/iniciar-sesion" className="nav-link">Iniciar Sesión</Link>
+        </li>
+      </ul>
     </nav>
   );
 };
 
-export default Navbar;
+export default NavBar;
+
+

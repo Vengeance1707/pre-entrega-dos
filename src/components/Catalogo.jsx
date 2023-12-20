@@ -14,7 +14,7 @@ const Catalogo = () => {
 
   return (
     <div className="container mt-4">
-      <h2>Catalogo</h2>
+      <h2>Bienvenidos a Rage Componentes</h2>
       <div className="row">
         {products.map((product) => (
           <div key={product.id} className="col-lg-4 mb-4">
