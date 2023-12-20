@@ -7,7 +7,7 @@ import Inicio from './pages/Inicio';
 import Carrito from './pages/Carrito';
 import IniciarSesion from './pages/IniciarSesion';
 import Productos from './pages/Productos';
-import './App.css';
+import './Styles/App.css';
 
 const App = () => {
   return (
