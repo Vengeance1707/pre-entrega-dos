@@ -11,10 +11,10 @@ const Catalogo = () => {
     const fetchedProducts = getProductsByCategory(category);
     setProducts(fetchedProducts);
   }, [category]);
-
   return (
     <div className="container mt-4">
-      <h2>Bienvenidos a Rage Componentes</h2>
+     <h2>Bienvenido a nuestra página</h2>
+      <p>Explora nuestros productos y encuentra las mejores ofertas.</p>
       <div className="row">
         {products.map((product) => (
           <div key={product.id} className="col-lg-4 mb-4">
