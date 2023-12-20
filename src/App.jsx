@@ -15,13 +15,12 @@ const App = () => {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Catalogo />} />
+          <Route path="/" exact element={<Inicio />} />
           <Route path="/category/:category" element={<Catalogo />} />
           <Route path="/item/:id" element={<DetalleDeProducto />} />
-          <Route path="/" exact component={Inicio} />
-          <Route path="/productos" component={Productos} />
-          <Route path="/carrito" component={Carrito} />
-          <Route path="/iniciar-sesion" component={IniciarSesion} />
+          <Route path="/productos" element={<Productos />} />
+          <Route path="/carrito" element={<Carrito />} />
+          <Route path="/iniciar-sesion" element={<IniciarSesion />} />
         </Routes>
       </div>
     </Router>
